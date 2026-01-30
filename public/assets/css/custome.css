@@ -1,0 +1,9 @@
+.mobile-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.text-justify{
+    text-align: justify;
+}
