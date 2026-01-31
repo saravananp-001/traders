@@ -13,7 +13,11 @@ import { Chelsea_Market, DM_Sans } from "next/font/google";
 import "./globals.css";
 import Preloader from "@/layout/Preloader";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ClientPreloader from "@/components/ClientPreloader";
 
+// const Preloader = dynamic(() => import("@/layout/Preloader"), {
+//   ssr: false,
+// });
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -40,7 +44,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
-        <Preloader />
+        {/* <Preloader /> */}
+
+        <ClientPreloader />
         {children}
       </body>
     </html>
