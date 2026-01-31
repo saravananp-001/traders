@@ -236,7 +236,7 @@ export const About3 = () => {
                 <div className="section-title">
                   <span className="sub-title color-2 wow fadeInUp">
                     <i className="fa-light fa-scroll-old"></i>
-                    About Jeni Traders
+                    Welcome to Jeni Traders
                   </span>
                   <h2 className="mt-char-animation">
                     Your Trusted Scrap Metal Partner in{" "}
@@ -258,7 +258,7 @@ export const About3 = () => {
                 </ul>
 
                 <div className="about-button wow fadeInUp" data-wow-delay=".5s">
-                  <Link href="about" className="theme-btn transparent-btn-2">
+                  <Link href="about" className="theme-btn  transparent-btn-2">
                     View more
                   </Link>
                 </div>

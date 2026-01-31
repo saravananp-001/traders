@@ -7,6 +7,7 @@ import { HeroSlider3 } from "@/components/HeroSlider";
 import { News3 } from "@/components/News";
 import { Promo2 } from "@/components/Promo";
 import DanboxLayout from "@/layout/DanboxLayout";
+import { Testimonial2 } from "@/components/Testimonial";
 
 const Home3 = () => {
   return (
@@ -17,9 +18,10 @@ const Home3 = () => {
       <Causes3 />
       <Cta3 />
       <Event3 />
-      <Feature2 />
-      <Cta4 />
-      <News3 />
+      {/* <Feature2 /> */}
+      {/* <Cta4 /> */}
+      <Testimonial2 />
+      {/* <News3 /> */}
     </DanboxLayout>
   );
 };

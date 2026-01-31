@@ -96,79 +96,23 @@ export const Cta3 = () => {
           <div className="col-lg-5">
             <div className="section-title mb-0">
               <span className="sub-title color-3 wow fadeInUp">
-                <i className="far fa-heart" />
-                Call To Action
+                <i className="far fa-gear" />
+                Our Works
               </span>
               <h2 className="mt-char-animation text-white">
-                Give Your Big Hand Forever
+                Turning Your Scrap Into Value
               </h2>
             </div>
           </div>
           <div className="col-lg-7">
             <div className="cta-subscribe-form">
-              <form action="#" id="contact-form" method="POST">
-                <div className="row g-4">
-                  <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div className="form-clt">
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Enter your name"
-                      />
-                      <div className="icon">
-                        <i className="fal fa-user" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div className="form-clt">
-                      <input
-                        type="text"
-                        name="phone"
-                        id="phone"
-                        placeholder="Enter phone number"
-                      />
-                      <div className="icon">
-                        <i className="fal fa-phone" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
-                    <div className="form-clt">
-                      <input
-                        type="text"
-                        name="location"
-                        id="location"
-                        placeholder="Enter address"
-                      />
-                      <div className="icon">
-                        <i className="far fa-map-marker-alt" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 wow fadeInUp" data-wow-delay=".5s">
-                    <div className="form-clt">
-                      <input
-                        type="text"
-                        name="code"
-                        id="code"
-                        placeholder="Zip Code"
-                      />
-                      <div className="icon">
-                        <i className="fal fa-map" />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-3 wow fadeInUp" data-wow-delay=".7s">
-                    <div className="form-clt">
-                      <button className="theme-btn" type="submit">
-                        Get Involed Today
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
+              <div className="text-center section-title mb-0">
+                <span className="sub-title color-2 wow fadeInUp">
+                  <i className="far fa-gear" />
+                  Why Choose Us
+                </span>
+              </div>
+              <p className="text-white text-center">Jeni Traders is a trusted scrap collection and recycling service committed to fair pricing, timely pickup, and responsible handling of materials. We serve homes, businesses, and industries with transparent weighing, quick payment, and eco-friendly recycling practices you can rely on.</p>
             </div>
           </div>
         </div>

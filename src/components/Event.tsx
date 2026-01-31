@@ -16,51 +16,51 @@ export const Event1 = () => {
     description: string;
     delay: string;
   }[] = [
-    {
-      img: "/assets/img/event/09.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "Rebecca's Album Supports Needy",
-      link: "event-details",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      delay: ".3s",
-    },
-    {
-      img: "/assets/img/event/15.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "Be Hungry No More and Leave",
-      link: "event-details",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      delay: ".5s",
-    },
-    {
-      img: "/assets/img/event/16.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "Charities Learn Forward",
-      link: "event-details",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      delay: ".3s",
-    },
-    {
-      img: "/assets/img/event/17.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "Help Us Touch Their Live",
-      link: "event-details",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      delay: ".5s",
-    },
-  ];
+      {
+        img: "/assets/img/event/09.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "Rebecca's Album Supports Needy",
+        link: "event-details",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        delay: ".3s",
+      },
+      {
+        img: "/assets/img/event/15.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "Be Hungry No More and Leave",
+        link: "event-details",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        delay: ".5s",
+      },
+      {
+        img: "/assets/img/event/16.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "Charities Learn Forward",
+        link: "event-details",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        delay: ".3s",
+      },
+      {
+        img: "/assets/img/event/17.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "Help Us Touch Their Live",
+        link: "event-details",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do \n eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        delay: ".5s",
+      },
+    ];
 
   return (
     <section className="event-section-4 fix section-padding">
@@ -138,27 +138,27 @@ export const Event2 = () => {
     description: string;
     delay: string;
   }[] = [
-    {
-      img: "/assets/img/event/02.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "How to build a loyal community offline",
-      description:
-        "Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo sodales.",
-      delay: ".3s",
-    },
-    {
-      img: "/assets/img/event/08.jpg",
-      date: "13 Nov 2024",
-      time: "10:00 PM",
-      location: "66 Broklyant, New York India",
-      title: "Start a campaign to reach your creative",
-      description:
-        "Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo sodales.",
-      delay: ".5s",
-    },
-  ];
+      {
+        img: "/assets/img/event/02.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "How to build a loyal community offline",
+        description:
+          "Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo sodales.",
+        delay: ".3s",
+      },
+      {
+        img: "/assets/img/event/08.jpg",
+        date: "13 Nov 2024",
+        time: "10:00 PM",
+        location: "66 Broklyant, New York India",
+        title: "Start a campaign to reach your creative",
+        description:
+          "Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis semper odio. Mauris et mollis quam. Nullam fringilla erat id ante commodo sodales.",
+        delay: ".5s",
+      },
+    ];
   return (
     <section className="event-section fix section-padding">
       <div className="container">
@@ -231,105 +231,86 @@ export const Event3 = () => {
     time: string;
     author: string;
   }[] = [
-    {
-      bgImage: "/assets/img/event/01.jpg",
-      date: "11",
-      month: "July",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/04.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-2",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/05.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-3",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/06.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-4",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/07.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-5",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/01.jpg",
-      date: "11",
-      month: "July",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/04.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-2",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/05.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-3",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/06.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-4",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-    {
-      bgImage: "/assets/img/event/07.jpg",
-      date: "11",
-      month: "July",
-      colorClass: "color-5",
-      category: "School",
-      title: "Need To Playing For This Worlds",
-      time: "13:00 - 18:00",
-      author: "Shikhon Islam",
-    },
-  ];
+      {
+        bgImage: "/assets/img/action/scrap-1.jpg",
+        date: "05",
+        month: "Jan",
+        category: "Scrap Collection",
+        title: "Scrap Collection Service in North Chennai",
+        time: "09:00 AM - 05:00 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-2.jpg",
+        date: "12",
+        month: "Feb",
+        colorClass: "color-2",
+        category: "Metal Recycling",
+        title: "Industrial Scrap Pickup in Ambattur",
+        time: "10:00 AM - 06:00 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-3.jpg",
+        date: "20",
+        month: "Mar",
+        colorClass: "color-3",
+        category: "Scrap Collection",
+        title: "Doorstep Scrap Collection in Velachery",
+        time: "08:30 AM - 04:30 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-4.jpg",
+        date: "02",
+        month: "Apr",
+        colorClass: "color-4",
+        category: "Scrap Pickup",
+        title: "Commercial Scrap Collection in T Nagar",
+        time: "09:30 AM - 05:30 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-5.jpg",
+        date: "15",
+        month: "May",
+        colorClass: "color-5",
+        category: "Metal Scrap",
+        title: "Heavy Metal Scrap Collection in Guindy",
+        time: "10:00 AM - 07:00 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-6.jpg",
+        date: "28",
+        month: "Jun",
+        category: "Recycling Service",
+        title: "Eco-Friendly Scrap Recycling Across Chennai",
+        time: "09:00 AM - 06:00 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-7.jpg",
+        date: "10",
+        month: "Jul",
+        colorClass: "color-2",
+        category: "Scrap Collection",
+        title: "Residential Scrap Pickup in Anna Nagar",
+        time: "08:00 AM - 02:00 PM",
+        author: "Jeni Traders",
+      },
+      {
+        bgImage: "/assets/img/action/scrap-8.jpg",
+        date: "22",
+        month: "Aug",
+        colorClass: "color-3",
+        category: "Scrap Service",
+        title: "All Metal Scrap Collection Anywhere in Chennai",
+        time: "09:00 AM - 05:00 PM",
+        author: "Jeni Traders",
+      },
+    ];
+
 
   return (
     <section className="event-section">
@@ -449,12 +430,12 @@ export const EventPage = () => {
     label: string;
     delay: string;
   }[] = [
-    { key: "categories", label: "All Categories", delay: ".3s" },
-    { key: "water", label: "Water Day", delay: ".5s" },
-    { key: "festival", label: "Festival", delay: ".7s" },
-    { key: "proevent", label: "ProEvent", delay: ".7s" },
-    { key: "trending", label: "Trending", delay: ".7s" },
-  ];
+      { key: "categories", label: "All Categories", delay: ".3s" },
+      { key: "water", label: "Water Day", delay: ".5s" },
+      { key: "festival", label: "Festival", delay: ".7s" },
+      { key: "proevent", label: "ProEvent", delay: ".7s" },
+      { key: "trending", label: "Trending", delay: ".7s" },
+    ];
 
   const eventData: Record<
     string,

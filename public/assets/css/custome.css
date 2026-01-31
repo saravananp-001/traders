@@ -1,9 +1,21 @@
-.mobile-menu{
+a {
+    text-decoration: none !important;
+}
+
+.mobile-menu {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
+}
+
+.text-deco {
+    text-decoration: none !important;
+}
+
+.custome-bth{
+    padding: 14.5px 30px !important;
 }

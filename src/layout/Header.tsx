@@ -33,19 +33,19 @@ const Logo = ({
   <Link href="/" className={className}>
     <Image
       src={`/assets/img/logo/${logo}`}
-      width={178}
-      height={54}
+      width={300}
+      height={100}
       alt="logo-img"
     />
   </Link>
 );
 
-const SocialIcons = ({ label = "Follow Us:" }: { label?: string }) => (
+const SocialIcons = ({ label = "Follow Us" }: { label?: string }) => (
   <div className="social-icon d-flex align-items-center">
-    <span>{label}</span>
-    {["facebook-f", "youtube"].map((icon) => (
-      <a href="#" key={icon}>
-        <i className={`fab fa-${icon}`} />
+    <span><i className='fa fa-regular fa-phone' /></span>
+    {["+91 76395 82802"].map((icon, index) => (
+      <a href="tel:+917639582802" key={index}>
+        {icon}
       </a>
     ))}
   </div>
@@ -56,7 +56,7 @@ const ContactList = ({
 }: {
   items: { icon: string; content: string | React.ReactNode }[];
 }) => (
-  <ul className="contact-list">
+  <ul className="contact-list mb-0">
     {items.map((item, i) => (
       <li key={i}>
         <i className={item.icon} />
@@ -189,13 +189,13 @@ const Header3 = ({ open }: { open: () => void }) => {
                   {
                     icon: "far fa-greeting",
                     content: (
-                     <span className="tracking-wider text-white">Welcome to Jeni Traders</span>
+                      <span className="tracking-wider text-white">Welcome to Jeni Traders - Best Scrap Buyers in Chennai</span>
                     ),
                   },
-                  {
-                    icon: "fa fa-regular fa-phone",
-                    content: <a href="tel:+917639582802">+91 76395 82802</a>,
-                  },
+                  // {
+                  //   icon: "fa fa-regular fa-phone",
+                  //   content: <a href="tel:+917639582802">+91 76395 82802</a>,
+                  // },
                 ]}
               />
               <div className="top-right">
@@ -265,14 +265,14 @@ const Nav = () => (
           </Link>
         </li>
         <li>
-          <Link href="/about">About US</Link>
+          <Link href="/about">About Us</Link>
         </li>
         <li className="has-dropdown">
-          <Link href="/causes-details">
-            Service Us
-            <i className="fas fa-angle-down" />
+          <Link href="/">
+            Our Service
+            {/* <i className="fas fa-angle-down" /> */}
           </Link>
-          <ul className="submenu">
+          {/* <ul className="submenu">
             <li>
               <Link href="/causes">Causes List</Link>
             </li>
@@ -282,7 +282,7 @@ const Nav = () => (
             <li>
               <Link href="/donation-details">Donation</Link>
             </li>
-          </ul>
+          </ul> */}
         </li>
         {/* <li className="has-dropdown">
           <Link href="/news">
@@ -327,9 +327,9 @@ const Nav = () => (
           </ul>
         </li> */}
         <li className="has-dropdown">
-          <Link href="/news">
+          <Link href="/">
             Our Works
-            <i className="fas fa-angle-down" />
+            {/* <i className="fas fa-angle-down" /> */}
           </Link>
           {/* <ul className="submenu">
             <li>

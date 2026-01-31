@@ -13,43 +13,43 @@ export const Testimonial1 = () => {
     clientName: string;
     clientRole: string;
   }[] = [
-    {
-      quoteIcon: "/assets/img/testimonial/quote2.png",
-      ratingTitle: "Quality Services",
-      rating: 5,
-      text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
-      clientImage: "/assets/img/testimonial/client.png",
-      clientName: "James N. Johnson",
-      clientRole: "CEO & Founder",
-    },
-    {
-      quoteIcon: "/assets/img/testimonial/quote2.png",
-      ratingTitle: "Quality Services",
-      rating: 5,
-      text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
-      clientImage: "/assets/img/testimonial/client2.png",
-      clientName: "David K. McKinney",
-      clientRole: "Senior Manager",
-    },
-    {
-      quoteIcon: "/assets/img/testimonial/quote2.png",
-      ratingTitle: "Quality Services",
-      rating: 5,
-      text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
-      clientImage: "/assets/img/testimonial/client.png",
-      clientName: "James N. Johnson",
-      clientRole: "CEO & Founder",
-    },
-    {
-      quoteIcon: "/assets/img/testimonial/quote2.png",
-      ratingTitle: "Quality Services",
-      rating: 5,
-      text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
-      clientImage: "/assets/img/testimonial/client2.png",
-      clientName: "David K. McKinney",
-      clientRole: "Senior Manager",
-    },
-  ];
+      {
+        quoteIcon: "/assets/img/testimonial/quote2.png",
+        ratingTitle: "Quality Services",
+        rating: 5,
+        text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
+        clientImage: "/assets/img/testimonial/client.png",
+        clientName: "James N. Johnson",
+        clientRole: "CEO & Founder",
+      },
+      {
+        quoteIcon: "/assets/img/testimonial/quote2.png",
+        ratingTitle: "Quality Services",
+        rating: 5,
+        text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
+        clientImage: "/assets/img/testimonial/client2.png",
+        clientName: "David K. McKinney",
+        clientRole: "Senior Manager",
+      },
+      {
+        quoteIcon: "/assets/img/testimonial/quote2.png",
+        ratingTitle: "Quality Services",
+        rating: 5,
+        text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
+        clientImage: "/assets/img/testimonial/client.png",
+        clientName: "James N. Johnson",
+        clientRole: "CEO & Founder",
+      },
+      {
+        quoteIcon: "/assets/img/testimonial/quote2.png",
+        ratingTitle: "Quality Services",
+        rating: 5,
+        text: "On the other hand we denounce with see righteous indignation and dislike men who arey beguiled and demoralized by leisure moments line desire",
+        clientImage: "/assets/img/testimonial/client2.png",
+        clientName: "David K. McKinney",
+        clientRole: "Senior Manager",
+      },
+    ];
   return (
     <section
       className="testimonial-section-4 section-padding bg-cover"
@@ -135,69 +135,71 @@ export const Testimonial2 = () => {
     name: string;
     role: string;
   }[] = [
-    {
-      stars: 5,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-1.png",
-      name: "Shikhon Islam",
-      role: "Web Designer",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-2.png",
-      name: "Albert Flores",
-      role: "Founder",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-3.png",
-      name: "Guy Hawkins",
-      role: "Founder",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-2.png",
-      name: "Albert Flores",
-      role: "Founder",
-    },
-    {
-      stars: 5,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-1.png",
-      name: "Shikhon Islam",
-      role: "Web Designer",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-2.png",
-      name: "Albert Flores",
-      role: "Founder",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-3.png",
-      name: "Guy Hawkins",
-      role: "Founder",
-    },
-    {
-      stars: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tence structures, to generate Lorem Ipsum which lo reasonable. The gener Lorem Ipsum done.",
-      img: "/assets/img/testimonial/client-2.png",
-      name: "Albert Flores",
-      role: "Founder",
-    },
-  ];
+
+      {
+        stars: 5,
+        text: "Jeni Traders provided quick and hassle-free scrap pickup from our home. Fair pricing and very professional service.",
+        img: "/assets/img/testimonial/person-1.jpg",
+        name: "Ramesh Kumar",
+        role: "Home Owner",
+      },
+      {
+        stars: 4,
+        text: "Excellent scrap collection service in Chennai. On-time pickup and transparent rates. Highly recommended.",
+        img: "/assets/img/testimonial/person-2.jpg",
+        name: "Suresh Patel",
+        role: "Shop Owner",
+      },
+      {
+        stars: 5,
+        text: "We sold bulk iron and steel scrap to Jeni Traders. Smooth process, accurate weight, and instant payment.",
+        img: "/assets/img/testimonial/person-3.jpg",
+        name: "Anand Velu",
+        role: "Factory Manager",
+      },
+      {
+        stars: 4,
+        text: "Reliable scrap buyers with friendly staff. They collected all types of metal scrap without any issues.",
+        img: "/assets/img/testimonial/person-4.jpg",
+        name: "Karthik Raj",
+        role: "Business Owner",
+      },
+      {
+        stars: 5,
+        text: "Very satisfied with their service. Jeni Traders handled our industrial scrap responsibly and efficiently.",
+        img: "/assets/img/testimonial/person-1.jpg",
+        name: "Murugan S",
+        role: "Industrial Client",
+      },
+      {
+        stars: 4,
+        text: "Best scrap collection service we have used. Honest pricing and fast response made the process easy.",
+        img: "/assets/img/testimonial/person-2.jpg",
+        name: "Vijay Kumar",
+        role: "Construction Supervisor",
+      },
+      {
+        stars: 5,
+        text: "Professional team with eco-friendly recycling practices. Everything was explained clearly before pickup.",
+        img: "/assets/img/testimonial/person-3.jpg",
+        name: "Arun Prakash",
+        role: "Warehouse Manager",
+      },
+      {
+        stars: 4,
+        text: "Jeni Traders made scrap selling simple and stress-free. Great service and quick settlement.",
+        img: "/assets/img/testimonial/person-4.jpg",
+        name: "Senthil Nathan",
+        role: "Office Admin",
+      },
+    ];
+
   return (
     <section className="testimonial-section fix section-bg section-padding">
       <div className="container">
         <div className="section-title text-center">
           <span className="sub-title color-2 wow fadeInUp">
-            Our testimonials
+            <i className="fas fa-person" />Our testimonials
           </span>
           <h2 className="mt-char-animation">Our Clients Feedback</h2>
         </div>
@@ -249,28 +251,28 @@ export const Testimonial3 = () => {
     rating: number; // out of 5
     text: string;
   }[] = [
-    {
-      name: "Shikhon Islam",
-      role: "Web Designer",
-      image: "/assets/img/testimonial/client-1.png",
-      rating: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
-    },
-    {
-      name: "Albert Flores",
-      role: "Founder",
-      image: "/assets/img/testimonial/client-2.png",
-      rating: 4,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
-    },
-    {
-      name: "Guy Hawkins",
-      role: "Founder",
-      image: "/assets/img/testimonial/client-3.png",
-      rating: 5,
-      text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
-    },
-  ];
+      {
+        name: "Shikhon Islam",
+        role: "Web Designer",
+        image: "/assets/img/testimonial/client-1.png",
+        rating: 4,
+        text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
+      },
+      {
+        name: "Albert Flores",
+        role: "Founder",
+        image: "/assets/img/testimonial/client-2.png",
+        rating: 4,
+        text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
+      },
+      {
+        name: "Guy Hawkins",
+        role: "Founder",
+        image: "/assets/img/testimonial/client-3.png",
+        rating: 5,
+        text: "It uses a dictionary of over 200 Latin words, combined with handful model tense structures, to generate Lorem Ipsum which looks reasonable. The gener Lorem Ipsum done",
+      },
+    ];
 
   return (
     <section className="testimonial-section fix section-bg section-padding">
