@@ -44,8 +44,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${chelsea_market.variable} ${dmSans.variable}`}>
-      
-
         <ClientPreloader />
         {children}
       </body>
