@@ -1,5 +1,5 @@
 import { About2 } from "@/components/About";
-import { Causes2 } from "@/components/Causes";
+import { Causes3 } from "@/components/Causes";
 import { CounterSection1 } from "@/components/CounterSection";
 import { Cta1, Cta2 } from "@/components/Cta";
 import { Event2 } from "@/components/Event";
@@ -24,7 +24,7 @@ const Home2 = () => {
       <Team2 />
       <Cta1 />
       <Faq2 />
-      <Causes2 />
+      <Causes3 />
       <Event2 />
       <Testimonial2 />
       <News2 />
